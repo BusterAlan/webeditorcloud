@@ -30,7 +30,7 @@ export default function Login() {
   return (
     <div style={{ maxWidth: '400px', margin: '50px auto', padding: '20px' }}>
       <h2>{isLogin ? 'Iniciar Sesión' : 'Registrarse'}</h2>
-      
+      <br></br>
       {error && (
         <div style={{ color: 'red', marginBottom: '10px' }}>
           {error}
